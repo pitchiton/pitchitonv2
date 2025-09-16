@@ -1,21 +1,20 @@
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaArrowRight, FaXTwitter } from "react-icons/fa6";
+import { PiMedal } from "react-icons/pi";
+import { RxDownload } from "react-icons/rx";
+import FirtsRunnerUp from "../assets/1stRunnerUp.svg";
+import SecondRunnerUp from "../assets/2ndRunnerUp.svg";
 import Anchor from "../assets/anchor.svg";
+import AppStore from "../assets/AppStore.svg";
+import GooglePlay from "../assets/GooglePlay.svg";
 import Logo from "../assets/pitchiton.svg";
 import Tamilnadu from "../assets/tamilnadu.svg";
-import SecondRunnerUp from "../assets/2ndRunnerUp.svg";
-import FirtsRunnerUp from "../assets/1stRunnerUp.svg";
 import TitleWinner from "../assets/TitleWinner.svg";
-import DropBox from "../assets/dropbox.svg";
+import VijayIcon from "../assets/vijayIcon.svg";
 import WhyParticipate1 from "../assets/WhyParticipate1.svg";
 import WhyParticipate2 from "../assets/WhyParticipate2.svg";
 import WhyParticipate3 from "../assets/WhyParticipate3.svg";
 import WhyParticipate4 from "../assets/WhyParticipate4.svg";
-import GooglePlay from "../assets/GooglePlay.svg";
-import AppStore from "../assets/AppStore.svg";
-import VijayIcon from "../assets/vijayIcon.svg";
-import { FaArrowRight, FaXTwitter } from "react-icons/fa6";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { RxDownload } from "react-icons/rx";
-import { PiMedal } from "react-icons/pi";
 
 const LandingPage = () => {
   return (
@@ -182,7 +181,7 @@ const LandingPage = () => {
           </button>
         </div>
         {/* ============== Section 6 ==================== */}
-        <div className="section">
+        {/* <div className="section">
           <div className="dropbox-container w-100">
             <div className="row">
               <div
@@ -207,7 +206,7 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* ============== Section 7 ==================== */}
         <div className="section">
           <h1 className="fw-bold mb-5 text-center" data-aos="zoom-in">
